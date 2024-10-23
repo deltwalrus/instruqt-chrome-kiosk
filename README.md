@@ -13,3 +13,6 @@ Docker container running Chrome, accessible via web browser for use in virtual h
 Contributions are welcome in the form of pull requests. Changes to code in `main` (merged PRs or YOLO commits) result in a GitHub Action that builds a new Docker image from this repo and publishes it to the Docker Hub. The resulting image will always be `deltwalrus/instruqt-chrome-kiosk:latest` and will also be versioned to keep a revision history.
 
 The Docker repo can be found at https://hub.docker.com/repository/docker/deltwalrus/instruqt-chrome-kiosk
+
+## To-Do
+See https://github.com/deltwalrus/instruqt-chrome-kiosk/issues where I will track progress toward fixes and enhancements.
