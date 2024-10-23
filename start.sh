@@ -33,7 +33,7 @@ XPRA_FORCE_REPLACE_WM=1 xpra start :99 \
         --disable-session-crashed-bubble \
         --disable-component-update \
         --no-first-run \
-        --kiosk $START_URL"
+        --kiosk $START_URL" \
 # Extension installation (unpack it first)
 #        --load-extension=/usr/src/extensions/dirWithExtensionName \
 # Note this has to precede the --kiosk above"
