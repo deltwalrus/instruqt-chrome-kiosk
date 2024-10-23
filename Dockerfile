@@ -40,7 +40,7 @@ RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
 ENV DISPLAY=:99
 ENV XPRA_HTML=on
 ENV XPRA_XVFB=on
-ENV START_URL=https://your-url.com
+ENV START_URL=https://www.instruqt.com
 
 # Copy XPRA settings
 COPY default-settings.txt /etc/xpra/html5-client/default-settings.txt

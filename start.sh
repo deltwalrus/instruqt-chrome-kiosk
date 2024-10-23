@@ -33,9 +33,10 @@ XPRA_FORCE_REPLACE_WM=1 xpra start :99 \
         --disable-session-crashed-bubble \
         --disable-component-update \
         --no-first-run \
-        --kiosk https://university.chronosphere.io"
+        --kiosk $START_URL"
 # Extension installation (unpack it first)
-#        --load-extension=/usr/src/extensions/c10e-removeNavMenuAdmin \
+#        --load-extension=/usr/src/extensions/dirWithExtensionName \
+# Note this has to precede the --kiosk above"
     --exit-with-children \
     --daemon=no \
     --no-pulseaudio \
