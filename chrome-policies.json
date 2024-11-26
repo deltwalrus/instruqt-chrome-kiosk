@@ -1,5 +1,7 @@
 {
   "PasswordManagerEnabled": false,
   "CredentialsEnableService": false
+  "BrowserSignin": 0,
+  "HomepageIsNewTabPage": false,
 }
 
